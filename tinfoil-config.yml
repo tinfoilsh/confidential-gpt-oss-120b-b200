@@ -12,7 +12,7 @@ models:
 
 containers:
   - name: "gpt-oss-120b"
-    image: "ghcr.io/tinfoilsh/vllm-openai-gpt-oss:latest"
+    image: "ghcr.io/tinfoilsh/vllm-openai-gpt-oss:v0.0.3"
     args: [
       "--runtime", "nvidia",
       "--gpus", "all",
